@@ -7,7 +7,7 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Region should be __asia-southeast1 (Singapore)__ and the zone should be __asia-southeast1-a__
 - Machine family should be __General-purpose__
 - Machine series should be __N1__
-- Machine type should be __Custom__ with __4 cores (vCPU)__ and __4gb memory__
+- Machine type should be __Custom__ with __4 cores (vCPU)__ and __8gb memory__
 - Do not deploy container Image to the VM instance
 - Boot disk should be __Ubuntu 18.04 LTS__
 - Do not change the configuration of __Identity and API access_
