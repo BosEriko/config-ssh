@@ -12,3 +12,6 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Boot disk should be __Ubuntu 18.04 LTS__
 - Do not change the configuration of __Identity and API access_
 - Set the firewall to allow both HTTP and HTTPS traffic
+
+## Video Reference
+There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by Fireship.
