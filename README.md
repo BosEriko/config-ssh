@@ -25,8 +25,12 @@ ssh-keygen -t rsa
 
 ## Connect to the VM instance
 You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else:
+```
+ssh -i ~/.ssh/id_rsa.pub [USERNAME]@[EXTERNAL_IP_ADDRESS]
+```
+__USERNAME__ is the username of the user connecting to the instance. If you manually created your SSH keys, this must be the username you specified when you [created the SSH key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
 
-![SSH Instructions](img/ssh-instructions.gif)
+__EXTERNAL_IP_ADDRESS__ is the external IP address for your instance.
 
 ## Run Visual Studio Code
 You must first have Docker installed before running the following command:
@@ -35,7 +39,7 @@ docker run -it -p 127.0.0.1:8080:8080 -v "${HOME}/.local/share/code-server:/home
 ```
 
 ## Video Reference
-There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by Fireship.
+There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by __Fireship__.
 
 ## Warning
 Remember to turn off the instance after you're done using it! It will be costly if you keep it running.
