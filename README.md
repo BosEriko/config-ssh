@@ -18,7 +18,7 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 ## Open Cloud Shell
 You can open a terminal in the browser using [Cloud Shell](https://ssh.cloud.google.com/).
 
-## Generate an SSH key
+## Generate your SSH key
 ```
 ssh-keygen -t rsa
 ```
