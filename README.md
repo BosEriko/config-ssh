@@ -13,5 +13,11 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Do not change the configuration of __Identity and API access_
 - Set the firewall to allow both HTTP and HTTPS traffic
 
+## Run Visual Studio Code
+You must first have Docker installed before running the following command:
+```
+docker run -it -p 127.0.0.1:8080:8080 -v "${HOME}/.local/share/code-server:/home/coder/.local/share/code-server" -v "$PWD:/home/coder/project" codercom/code-server:v2
+```
+
 ## Video Reference
 There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by Fireship.
