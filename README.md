@@ -8,7 +8,7 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Machine family should be __General-purpose__
 - Machine series should be __N1__
 - Machine type should be __Custom__ with __4 cores (vCPU)__ and __8gb memory__
-- Do not deploy container Image to the VM instance
+- Do not deploy a container Image to the VM instance
 - Boot disk should be __Ubuntu 18.04 LTS__
 - Boot disk type should be __SSD persistent disk__
 - Boot disk size (GB) should be __128__
