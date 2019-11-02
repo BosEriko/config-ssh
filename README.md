@@ -15,6 +15,9 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Do not change the configuration of __Identity and API access__
 - Set the firewall to allow both __HTTP__ and __HTTPS__ traffic
 
+## Open Cloud Shell
+You can open a terminal in the browser using [Cloud Shell](https://ssh.cloud.google.com/).
+
 ## Connect to the VM instance
 You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else:
 
