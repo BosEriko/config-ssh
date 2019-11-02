@@ -15,9 +15,8 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 
 ## Connect to the VM instance
 You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else:
-```
-ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]
-```
+
+![SSH Instructions](img/ssh-instructions.gif)
 
 ## Run Visual Studio Code
 You must first have Docker installed before running the following command:
