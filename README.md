@@ -26,3 +26,6 @@ docker run -it -p 127.0.0.1:8080:8080 -v "${HOME}/.local/share/code-server:/home
 
 ## Video Reference
 There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by Fireship.
+
+## Warning
+Remember to turn off the instance after you're done using it! It will be costly if you keep it running.
