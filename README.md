@@ -13,6 +13,9 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Do not change the configuration of __Identity and API access_
 - Set the firewall to allow both HTTP and HTTPS traffic
 
+## Connect to the VM instance
+You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else.
+
 ## Run Visual Studio Code
 You must first have Docker installed before running the following command:
 ```
