@@ -10,6 +10,8 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Machine type should be __Custom__ with __4 cores (vCPU)__ and __8gb memory__
 - Do not deploy container Image to the VM instance
 - Boot disk should be __Ubuntu 18.04 LTS__
+- Boot disk type should be __SSD persistent disk__
+- Boot disk size (GB) should be __128__
 - Do not change the configuration of __Identity and API access__
 - Set the firewall to allow both HTTP and HTTPS traffic
 
