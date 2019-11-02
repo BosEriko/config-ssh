@@ -14,7 +14,10 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Set the firewall to allow both HTTP and HTTPS traffic
 
 ## Connect to the VM instance
-You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else.
+You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else:
+```
+ssh -i [PATH_TO_PRIVATE_KEY] [USERNAME]@[EXTERNAL_IP_ADDRESS]
+```
 
 ## Run Visual Studio Code
 You must first have Docker installed before running the following command:
