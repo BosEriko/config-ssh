@@ -13,7 +13,7 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Boot disk type should be __SSD persistent disk__
 - Boot disk size (GB) should be __128__
 - Do not change the configuration of __Identity and API access__
-- Set the firewall to allow both HTTP and HTTPS traffic
+- Set the firewall to allow both __HTTP__ and __HTTPS__ traffic
 
 ## Connect to the VM instance
 You need to [SSH](https://cloud.google.com/compute/docs/instances/connecting-advanced#thirdpartytools) inside the VM instance first before doing anything else:
