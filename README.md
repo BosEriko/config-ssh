@@ -11,7 +11,7 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Do not deploy a container Image to the VM instance
 - Boot disk should be __Ubuntu 18.04 LTS__
 - Boot disk type should be __SSD persistent disk__
-- Boot disk size (GB) should be __128__
+- Boot disk size (GB) should be __64__
 - Do not change the configuration of __Identity and API access__
 - Set the firewall to allow both __HTTP__ and __HTTPS__ traffic
 
