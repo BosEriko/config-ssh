@@ -4,7 +4,7 @@ My personal cloud coding environment powered by [Coder](https://github.com/cdr/c
 ## Setup your Google Cloud environment
 Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) under Compute Engine.
 - Name it however you want
-- Region should be __asia-southeast1 (Singapore)__ and the zone should be __asia-southeast1-a__
+- Region should be __asia-southeast1 (Singapore)__ and the zone should be __asia-southeast1-c__
 - Machine family should be __General-purpose__
 - Machine series should be __N1__
 - Machine type should be __Custom__ with __4 cores (vCPU)__ and __8gb memory__
