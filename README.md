@@ -18,6 +18,9 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 ## Add your SSH key
 Be sure to add your SSH key under the [Metadata](https://console.cloud.google.com/compute/metadata/sshKeys) of Compute Engine!
 
+## Coder Official Instruction
+Check out Coder's official Google Cloud [instruction](https://github.com/cdr/code-server/blob/master/doc/deploy.md#google-cloud) for more information.
+
 ## Open Cloud Shell
 You can open a terminal in the browser using [Cloud Shell](https://ssh.cloud.google.com/).
 
