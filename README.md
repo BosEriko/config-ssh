@@ -41,5 +41,8 @@ docker run -it -p 127.0.0.1:8080:8080 -v "${HOME}/.local/share/code-server:/home
 ## Video Reference
 There's also a [video](https://www.youtube.com/watch?v=N5WojMutddQ) that you can watch by __Fireship__.
 
+## Can't SSH?
+If you can't SSH into the VM instance and you're having problem with Port 22 you can check out this [fix](https://community.bitnami.com/t/handling-unable-to-connect-on-port-22-error-message-on-compute-engine-ssh-connection-solved/66522).
+
 ## Warning
 Remember to turn off the instance after you're done using it! It will be costly if you keep it running.
