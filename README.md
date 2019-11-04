@@ -15,6 +15,9 @@ Create a [VM instance](https://console.cloud.google.com/compute/instancesAdd) un
 - Do not change the configuration of __Identity and API access__
 - Set the firewall to allow both __HTTP__ and __HTTPS__ traffic
 
+## Add your SSH key
+Be sure to add your SSH key under the [Metadata](https://console.cloud.google.com/compute/metadata/sshKeys) of Compute Engine!
+
 ## Open Cloud Shell
 You can open a terminal in the browser using [Cloud Shell](https://ssh.cloud.google.com/).
 
